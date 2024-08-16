@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced jQuery To-Do List</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>jQuery To-Do List</h1>
+      <input type="text" id="new-task" placeholder="Add a new task..." />
+      <button id="add-task">Add Task</button>
+      <div class="filters">
+        <button id="all-tasks">All</button>
+        <button id="active-tasks">Active</button>
+        <button id="completed-tasks">Completed</button>
+      </div>
+      <ul id="task-list">
+        <!-- Tasks will be added here dynamically -->
+      </ul>
+      <button id="clear-completed">Clear Completed Tasks</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
