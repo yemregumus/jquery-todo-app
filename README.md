@@ -15,16 +15,6 @@ This project is an advanced To-Do List web application built using jQuery. It al
 - **Drag-and-Drop Sorting**: Tasks can be reordered by dragging and dropping them within the list.
 - **Local Storage**: All tasks are saved in the browser's local storage, ensuring persistence across page reloads and browser sessions.
 
-## Project Structure
-
-jquery-todo-app/
-├── index.html # The main HTML file
-├── css/
-│ └── style.css # CSS styles
-├── js/
-│ └── script.js # jQuery and JavaScript code
-└── README.md # Project documentation
-
 ## Technologies Used
 
 - **HTML5**: Structure of the web application.
@@ -32,13 +22,6 @@ jquery-todo-app/
 - **jQuery**: DOM manipulation, event handling, animations, and Ajax.
 - **jQuery UI**: For drag-and-drop sorting functionality.
 - **Local Storage**: To persist tasks between sessions.
-
-## How to Run the Project
-
-### Prerequisites
-
-- A modern web browser (Chrome, Firefox, etc.)
-- Basic understanding of jQuery and JavaScript (optional)
 
 ### Steps
 
